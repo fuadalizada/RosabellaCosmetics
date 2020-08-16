@@ -1,0 +1,15 @@
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\test.deps.json
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\test.dll
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.csprojAssemblyReference.cache
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Domain.dll
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Domain.pdb
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.csproj.CopyComplete
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+D:\visualStudio2019\RosabellaCosmetics\test\bin\Debug\netcoreapp3.1\test.pdb
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.dll
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.pdb
+D:\visualStudio2019\RosabellaCosmetics\test\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.deps.json
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.runtimeconfig.json
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.runtimeconfig.dev.json
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.dll
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.pdb
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Domain.dll
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\bin\Debug\netcoreapp3.1\RosabellaCosmetics.Domain.pdb
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.csprojAssemblyReference.cache
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.AssemblyInfoInputs.cache
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.AssemblyInfo.cs
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.csproj.CoreCompileInputs.cache
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.csproj.CopyComplete
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.dll
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.pdb
+D:\visualStudio2019\RosabellaCosmetics\RosabellaCosmetics.DAL\obj\Debug\netcoreapp3.1\RosabellaCosmetics.Dal.genruntimeconfig.cache
