@@ -10,8 +10,8 @@ using RosabellaCosmetics.Dal.DbContext;
 namespace RosabellaCosmetics.Dal.Migrations
 {
     [DbContext(typeof(RosabellaCosmeticsDbContext))]
-    [Migration("20200816212337_InitMigration")]
-    partial class InitMigration
+    [Migration("20200908110931_initMigration")]
+    partial class initMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,11 +29,11 @@ namespace RosabellaCosmetics.Dal.Migrations
 
                     b.Property<string>("City")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Country")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("DateTime");

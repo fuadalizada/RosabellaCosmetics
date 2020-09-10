@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Aktiv mallar ashagidakilardir</h2>
+
+@{
+    foreach (var item in Model)
+    {
+        <h1>Product Name: @item.Name</h1>
+        <p>Price: @item.Price</p>
+    }
+}

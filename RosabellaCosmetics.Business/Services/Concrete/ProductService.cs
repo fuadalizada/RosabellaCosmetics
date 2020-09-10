@@ -2,21 +2,23 @@
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using FluentValidation;
 using RosabellaCosmetics.Business.ActionResult;
 using RosabellaCosmetics.Business.DTOs;
-using RosabellaCosmetics.Business.FluentValidations;
 using RosabellaCosmetics.Business.Services.Abstract;
 using RosabellaCosmetics.Dal.Repositories.Abstract;
 using RosabellaCosmetics.Domain.Entities;
 
 namespace RosabellaCosmetics.Business.Services.Concrete
 {
-    public class ProductService : BaseService<ProductDto, Product, IProductRepository, ProductValidator>, IProductService
+    public class ProductService : BaseService<ProductDto, Product, IProductRepository>, IProductService
     {
         private readonly IProductRepository _repository;
         private readonly IMapper _mapper;
-        private readonly ProductValidator _validator;
-        public ProductService(IProductRepository repository, IMapper mapper, ProductValidator validator) : base(repository, mapper, validator)
+        //private readonly ProductValidator _validator;
+        private readonly AbstractValidator<ProductDto> _validator;
+
+        public ProductService(IProductRepository repository, IMapper mapper, AbstractValidator<ProductDto> validator) : base(repository, mapper, validator)
         {
             _repository = repository;
             _mapper = mapper;

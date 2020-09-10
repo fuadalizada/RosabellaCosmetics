@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RosabellaCosmetics.Dal.Migrations
 {
-    public partial class InitMigration : Migration
+    public partial class initMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -21,8 +21,8 @@ namespace RosabellaCosmetics.Dal.Migrations
                     Email = table.Column<string>(type: "varchar(62)", nullable: false),
                     PasswordHash = table.Column<string>(type: "nvarchar(128)", nullable: false),
                     PasswordSalt = table.Column<string>(type: "nvarchar(128)", nullable: false),
-                    Country = table.Column<string>(nullable: false),
-                    City = table.Column<string>(nullable: false)
+                    Country = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    City = table.Column<string>(type: "nvarchar(50)", nullable: false)
                 },
                 constraints: table =>
                 {

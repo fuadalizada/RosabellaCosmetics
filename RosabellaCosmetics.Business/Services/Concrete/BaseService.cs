@@ -11,17 +11,18 @@ using RosabellaCosmetics.Domain.Entities;
 
 namespace RosabellaCosmetics.Business.Services.Concrete
 {
-    public class BaseService<TDto, TEntity, TRepository, TValidator> : IBaseService<TDto>
+    public class BaseService<TDto, TEntity, TRepository> : IBaseService<TDto>
         where TDto : BaseDto, new()
         where TEntity : BaseEntity, new()
         where TRepository : IBaseRepository<TEntity>
-        where TValidator : AbstractValidator<TDto>
+        //where TValidator : AbstractValidator<TDto>
     {
         private readonly TRepository _repository;
         private readonly IMapper _mapper;
-        private readonly TValidator _validator;
+        //private readonly TValidator _validator;
+        private readonly AbstractValidator<TDto> _validator;
 
-        protected BaseService(TRepository repository, IMapper mapper, TValidator validator)
+        protected BaseService(TRepository repository, IMapper mapper, AbstractValidator<TDto> validator)
         {
             _repository = repository;
             _mapper = mapper;

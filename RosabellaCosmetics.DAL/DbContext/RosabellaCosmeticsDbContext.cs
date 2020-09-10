@@ -85,10 +85,12 @@ namespace RosabellaCosmetics.Dal.DbContext
 
             modelBuilder.Entity<Customer>()
                 .Property(x => x.Country)
+                .HasColumnType("nvarchar(50)")
                 .IsRequired();
 
             modelBuilder.Entity<Customer>()
                 .Property(x => x.City)
+                .HasColumnType("nvarchar(50)")
                 .IsRequired();
 
             modelBuilder.Entity<Customer>()

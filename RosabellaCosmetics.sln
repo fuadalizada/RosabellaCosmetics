@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RosabellaCosmetics.Business
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RosabellaCosmetics.WebApi", "RosabellaCosmetics.WebApi\RosabellaCosmetics.WebApi.csproj", "{5A3098D2-122F-476C-9DF0-13C81F26EB9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RosabellaCosmetics.WebUI", "RosabellaCosmetics.WebUI\RosabellaCosmetics.WebUI.csproj", "{B462F7DC-BF16-4C2E-B0C7-ED4DD52049D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5A3098D2-122F-476C-9DF0-13C81F26EB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A3098D2-122F-476C-9DF0-13C81F26EB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A3098D2-122F-476C-9DF0-13C81F26EB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B462F7DC-BF16-4C2E-B0C7-ED4DD52049D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B462F7DC-BF16-4C2E-B0C7-ED4DD52049D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B462F7DC-BF16-4C2E-B0C7-ED4DD52049D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B462F7DC-BF16-4C2E-B0C7-ED4DD52049D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
